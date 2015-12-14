@@ -1,0 +1,6 @@
+
+* To submit to the form
+
+  #+begin_src sh
+ http -f POST localhost:3000/ f1@Common.hs f2="haskell code"
+  #+end_src
