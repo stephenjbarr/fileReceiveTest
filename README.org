@@ -4,3 +4,12 @@
   #+begin_src sh
  http -f POST localhost:3000/ f1@Common.hs f2="haskell code"
   #+end_src
+
+  #+begin_src sh
+ http -f POST localhost:3000/uploadfile myfile@Foundation.hs   
+  #+end_src
+  
+* Things to incorporate
+
+  1. http://www.yesodweb.com/blog/2014/01/new-fast-logger
+  2. http://stackoverflow.com/questions/27040150/upload-data-to-yesod-server-using-input-forms

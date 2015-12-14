@@ -6,3 +6,4 @@
 / HomeR GET POST
 
 /comments CommentR POST
+uploadfile UploadFileR POST
